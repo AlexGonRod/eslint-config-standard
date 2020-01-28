@@ -8,9 +8,6 @@
     "globals": {
         "ga": true,
         "process": true,
-        "workbox": true,
-        "__SPEC_FILES__": true,
-        "__webpack_public_path__": true,
-        "__wepback_build_number__": true
+        "workbox": true
     }
 }

@@ -1,4 +1,4 @@
-# eslint-config-standard
+# eslint-config-standards
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -15,26 +15,26 @@ well.
 Install the package with
 
 ```sh
-npm install eslint-config-standard --save-dev
+npm install eslint-config-standards --save-dev
 
 # or
-yarn add eslint-config-standard -D
+yarn add eslint-config-standards -D
 ```
 
 Then install the correct versions of each peerDependency package, which are
 listed by the command:
 
 ```sh
-npm info "eslint-config-standard@latest" peerDependencies
+npm info "eslint-config-standards@latest" peerDependencies
 ```
 
 If using npm 5+, use this shortcut:
 
 ```sh
-npx install-peerdeps --dev eslint-config-standard
+npx install-peerdeps --dev eslint-config-standards
 
 # or
-yarn add eslint-config-standard -D --peer
+yarn add eslint-config-standards -D --peer
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ Now add the config to either your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "eslint-config-standard"
+    "extends": "eslint-config-standards"
   }
 }
 ```
@@ -53,7 +53,7 @@ to your `.eslintrc`:
 
 ```json
 {
-  "extends": "eslint-config-standard"
+  "extends": "eslint-config-standards"
 }
 ```
 
@@ -61,7 +61,7 @@ or `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: 'eslint-config-standard',
+  extends: 'eslint-config-standards',
 }
 ```
 
@@ -87,7 +87,7 @@ This ESLint configuration comes with some fundamental assumptions:
         <a href="https://github.com/alexgonrod">
           <img width="150" height="150" src="https://github.com/alexgonrod.png?v=3&s=150">
           </br>
-          Stefan Natter
+          Alex Gonzalez
         </a>
         <div>
           <a href="https://twitter.com/deepinsd">
